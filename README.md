@@ -1,6 +1,6 @@
 
 #include<iostream>
-Using std::cout;
+using std::cout;
 int age;
 cout<<"Enter your age:";
 cin>>age;//age of the person.
