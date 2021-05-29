@@ -20,13 +20,11 @@ void Time::getTime(void)
     cout << "Hours?   ";          cin >> hh;
     cout << "Minutes? ";          cin >> mm;
     cout << "Seconds? ";          cin >> ss;
-}
- 
+} 
 void Time::convertIntoSeconds(void)
 {
     seconds = hh*3600 + mm*60 + ss;
-}
- 
+} 
 void Time::displayTime(void)
 {
     cout << "The time is = " << setw(2) << setfill('0') << hh << ":"
@@ -34,14 +32,11 @@ void Time::displayTime(void)
                              << setw(2) << setfill('0') << ss << endl;
     cout << "Time in total seconds: " << seconds;
 }
- 
 int main()
 {
-    Time T; //creating objects
-     
+    Time T; //creating objects    
     T.getTime();
     T.convertIntoSeconds();
-    T.displayTime();
-     
+    T.displayTime();     
     return 0;
 }
