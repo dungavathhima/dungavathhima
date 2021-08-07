@@ -8,6 +8,6 @@ m=s.nextInt();
 days=m/1440;
 System.out.println("number of days:" +days);
 years=days/365;
-System.out.println(number of years:" +yeras);
+System.out.println(number of years:" +years);
 }
 }
